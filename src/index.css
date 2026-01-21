@@ -134,6 +134,7 @@
   }
   h4 {
     font-weight: 700;
+    font-size: var(--text-md);
   }
   p {
     font-size: var(--text-md);

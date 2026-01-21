@@ -13,7 +13,7 @@ function Sidebar() {
   return (
     <div className="p-6 flex flex-col items-start justify-between border-r h-full bg-linear-to-r from-violet-50 to-indigo-50">
       <div>
-        <img src="https://www.library.cornell.edu/wp-content/themes/cul-theme/images/branding/CULibraryRed.svg" alt="logo" className="h-16 mb-8" />
+        <img src="https://www.library.cornell.edu/wp-content/themes/cul-theme/images/branding/CULibraryRed.svg" alt="logo" className="h-16 mb-10" />
         <div className="flex flex-col gap-2">
           <Link to="/" className="hover:opacity-70">
             <h4 className="flex items-center gap-2">

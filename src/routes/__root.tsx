@@ -15,14 +15,16 @@ function NotFoundComponent() {
 
   return (
     <>
-      <h1 className="text-blue-900 text-6xl font-semibold">⬩404⬩</h1>
+      <h1 className="text-indigo-900 text-6xl font-semibold">⬩404⬩</h1>
 
       <img src={sadbot} alt="Sad bot" width="300" />
       <p>
         Sidan du letar efter finns inte. Var god dubbelkolla URL:en och försök
         igen.
       </p>
-      <Button variant="secondary" onClick={() => router.history.back()}>Gå tillbaka</Button>
+      <Button variant="secondary" onClick={() => router.history.back()}>
+        Gå tillbaka
+      </Button>
     </>
   );
 }

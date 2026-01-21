@@ -1,9 +1,8 @@
-import { Outlet, createRootRoute, useRouter } from "@tanstack/react-router";
+import { Outlet, createRootRoute } from "@tanstack/react-router";
 import Sidebar from "../views/sidebar";
 import Header from "../views/header";
 
 import sadbot from "../assets/sadbot.png";
-import { Button } from "@/components/ui/button";
 
 export const Route = createRootRoute({
   component: RootComponent,
@@ -11,8 +10,6 @@ export const Route = createRootRoute({
 });
 
 function NotFoundComponent() {
-  const router = useRouter();
-
   return (
     <>
       <h1 className="text-indigo-900 text-6xl font-semibold">⬩404⬩</h1>
@@ -22,9 +19,6 @@ function NotFoundComponent() {
         Sidan du letar efter finns inte. Var god dubbelkolla URL:en och försök
         igen.
       </p>
-      <Button variant="secondary" onClick={() => router.history.back()}>
-        Gå tillbaka
-      </Button>
     </>
   );
 }

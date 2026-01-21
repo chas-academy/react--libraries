@@ -1,0 +1,3 @@
+# 🦍 Frontendutveckling med ramverk - React-bibliotek
+
+Det existerar oändligt många tredjepartsbibliotek i React communityn, dels hantering av funktionalitet som routing, API-anrop och caching av data samt färdigbyggda UI-komponenter som menyer, kalendrar, tabeller med mera. I den här uppgiften kommer du utforska flera olika React-bibliotek och få en klar förståelse för hur man jobbar med dem och kan effektivisera sitt utvecklande genom att inte behöva bygga allt från grunden själv.
